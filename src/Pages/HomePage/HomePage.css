@@ -1,0 +1,11 @@
+/* Add some padding to the container */
+.container {
+  padding: 0 5px;
+}
+
+/* Add margin to the top of the Tab component on small screens */
+@media (max-width: 992px) {
+  .tab-component {
+    margin-top: 5px;
+  }
+}
