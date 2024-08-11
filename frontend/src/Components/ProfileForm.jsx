@@ -100,7 +100,7 @@ function ProfileForm() {
 
 
   <div class="col-12">
-    <button class="btn" type="submit" style={{ backgroundImage: 'linear-gradient(to right, #fa709a 0%, #fee140 100%)' }}>Submit form</button>
+    <button class="btn btn-dark" type="submit" >Submit form</button>
   </div>
 </form>
 

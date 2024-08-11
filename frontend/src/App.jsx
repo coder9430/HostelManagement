@@ -7,6 +7,9 @@ import LeaveApplyPage from './Pages/LeaveApplyPage/LeaveApplyPage';
 import ProfilePage from './Pages/ProfilePage';
 import NoticePage from './Pages/NoticePage/NoticePage'; // Make sure this exists
 import LeavePage from './Pages/LeavePage/LeavePage'; // Make sure this exists
+import Login from './Pages/Login';
+import Logout from './Components/Logout'
+import SigninPage from './Pages/SigninPage';
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
           <Route path="/apply" element={<LeaveApplyPage />} />
           <Route path="/history" element={<LeaveHistoryPage />} />
           <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/logout" element={<Logout/>}/>
+          <Route path="/signup" element={<SigninPage/>}/>
         </Routes>
       </div>
     </Router>
