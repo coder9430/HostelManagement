@@ -3,6 +3,7 @@ import Navbar from '../../Components/Navbar';
 import Tab from '../../Components/Tab/Tab';
 import Dashboard from '../../Components/Dashboard/Dashboard';
 import Footer from '../../Components/Footer';
+import Admin from '../../Components/Dashboard/Admin';
 
 function HomePage() {
   return (
@@ -14,7 +15,8 @@ function HomePage() {
             <Tab />
           </div>
           <div className="col-lg-9 col-12 order-lg-2 order-2">
-            <Dashboard />
+            <Admin />
+            {/*<Dashboard/>*/}
           </div>
         </div>
       </div>

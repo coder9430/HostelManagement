@@ -3,6 +3,7 @@ import Navbar from '../../Components/Navbar'
 import FormCompaint from '../../Components/FormCompaint'
 import TabComplain from '../../Components/TabComplain/TabComplain'
 import Footer from '../../Components/Footer'
+
 function ComplaintPage() {
   return (
     <div >
