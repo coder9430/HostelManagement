@@ -1,0 +1,17 @@
+/* styles.css */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card-link {
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Hides any text that overflows */
+    text-overflow: ellipsis; /* Displays an ellipsis (...) to indicate text overflow */
+  }
+  
